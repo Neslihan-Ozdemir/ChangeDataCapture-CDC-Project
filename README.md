@@ -6,11 +6,13 @@ veritabanına (MongoDB) aktarılmıştır.Böylece Change Data Capture (CDC) mek
 prototipi geliştirilmiştir.
 
 **Kullanılan Teknolojiler:**
--SQL DB: MySQL
--NoSQL DB: MongoDB
--Programlama Dili: Python
+
+- SQL Veritabanı: MySQL
+- NoSQL Veritabanı: MongoDB
+- Programlama Dili: Python
 
 **CDC Yaklaşımı ve Kullanılan Yöntem**
+
 Projede Change Data Capture (CDC) yaklaşımı kullanılarak MySQL veritabanında gerçekleşen veri
 değişiklikleri izlenmiştir. Orders ve Customers tablosuüzerinde tanımlanan triggerlar sayesinde
 INSERT, UPDATE ve DELETE işlemleri anında Orders_log ve Customer_log tablosuna
