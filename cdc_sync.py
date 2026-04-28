@@ -79,7 +79,6 @@ def transfer_logs_to_mongo():
         mark_log_as_transferred(log["log_id"])
 
 
-    # --- Customers_log aktarımı ---
     customer_logs = fetch_new_customer_logs()
 
     for log in customer_logs:
