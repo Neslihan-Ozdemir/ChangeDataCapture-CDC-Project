@@ -5,7 +5,7 @@ from pymongo import MongoClient
 mysql_conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="************",
+    password="şifrenizi_buraya_yazın",
     database="cdc_db",
     autocommit=True
 )
